@@ -39,7 +39,7 @@ def characterCreator():
 
   while True:
     playerName = input("What is your name? ")
-    print("You've chosen the name " + playerName + ".")
+    print("You've chosen the name {playerName}.")
     print("1. Yes")
     print("2. No")
     choice = input("Would you like to change your name? ")
@@ -53,17 +53,17 @@ def characterCreator():
   if playerGender == "Male":
     print("What a name...")
     wait()
-    print("Time to begin your story, " + playerName + ".")
+    print("Time to begin your story, {playerName}.")
     wait()
     return
   elif playerGender == "Female":
     print("What a beautiful name.")
     wait()
-    print("I suppose it is time to begin your story, " + playerName + ".")
+    print("I suppose it is time to begin your story, {playerName}.")
     wait()
     return
   elif playerGender == "Nonbinary":
-    print("Quite the name, " + playerName + ".")
+    print("Quite the name, {playerName}.")
     wait()
     print("Anyway, your adventure begins now...")
     wait()
