@@ -19,11 +19,11 @@ def nightmare():
   wait()
   print("There's a light ahead...")
   wait()
-  print("What will you do?")
-  print("")
-  print("1. Approach the light")
-  print("2. Run from the light")
-  while True: 
+  while True:
+    print("What will you do?")
+    print("")
+    print("1. Approach the light")
+    print("2. Run from the light") 
     print("3. Stay put")
     choice = input("Choose: ")
     if choice == "1":
