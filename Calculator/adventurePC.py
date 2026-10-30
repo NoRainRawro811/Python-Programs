@@ -1,5 +1,5 @@
 print("PRESS enter TO START")
-key = input()
+key = input("")
 
 def wait():
   input("\n[Press Enter to continue]")
