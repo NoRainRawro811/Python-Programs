@@ -53,6 +53,24 @@ def characterCreator():
     else:
       print("Not an answer.")
   characterGender()
+  if playerGender == "Male":
+    print("What a name...")
+    wait()
+    print("Time to begin your story, " + playerName + ".")
+    wait()
+    return
+  elif playerGender == "Female":
+    print("What a beautiful name.")
+    wait()
+    print("I suppose it is time to begin your story, " + playerName + ".")
+    wait()
+    return
+  elif playerGender == "Nonbinary":
+    print("Quite the name, " + playerName + ".")
+    wait()
+    print("Anyway, your adventure begins now...")
+    wait()
+    return
 
 
 personality = {
